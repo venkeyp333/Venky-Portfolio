@@ -1,0 +1,25 @@
+/* flash.css */
+.flash {
+    animation: flash-animation 0.3s ease;
+  }
+  
+  @keyframes flash-animation {
+    0% {
+      background-color: yellow; /* Change to your desired flash color */
+    }
+    100% {
+      background-color: transparent; /* Back to original background */
+    }
+  }
+
+  /* flash.css */
+.carousel-container {
+  width: 100%; /* Full width */
+  max-width: 1200px; /* Optional max width for larger screens */
+  margin: 0 auto; /* Centering */
+  padding: 20px; /* Padding for better spacing */
+  box-sizing: border-box; /* Include padding in width */
+  overflow: hidden; /* Hide any overflow */
+}
+
+  
